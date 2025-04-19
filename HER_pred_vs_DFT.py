@@ -14,8 +14,8 @@ from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
 
 # Load dataset
-X = np.loadtxt('hcp_hollow_29_microstructures.csv', delimiter=",", skiprows=1, usecols=range(15))
-y = np.loadtxt('hcp_hollow_29_microstructures.csv', delimiter=",", skiprows=1, usecols=15)
+X = np.loadtxt('hcp_hollow_microstructures.csv', delimiter=",", skiprows=1, usecols=range(15))
+y = np.loadtxt('hcp_hollow_microstructures.csv', delimiter=",", skiprows=1, usecols=15)
 
 # Normalize input features
 scaler = MinMaxScaler()
